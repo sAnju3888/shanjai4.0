@@ -1,0 +1,93 @@
+
+body {
+    background:linear-gradient(#EF7F74,#F6D694);
+    
+}
+
+.ok{
+
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+
+
+.ok{
+    height:900px;
+}
+
+.thumb{
+    display:inline;
+    border-radius: 7%;
+    margin-bottom: 300px;
+    border:5px solid red;
+
+}
+
+#product{
+
+    width:500px;
+    display:flex;
+    justify-content: center;
+    border:10px solid white;
+    background: #a8dadc;
+    border-radius: 15px;
+    margin-bottom: 300px;
+
+}
+.quotes{
+    padding-top:90px;
+    text-align: center;
+}
+.drop{
+    font-size: 30px;
+}
+
+
+#pic_prod{
+    border-radius: 7%;
+    border:5px solid white;
+    margin-top:65px;
+    margin-bottom:8px;
+}
+
+.main{
+    display:flex;
+    justify-content:space-evenly;
+    text-align: center;
+    border:2px solid white;
+    background:white;
+    margin-top:-360px;
+    font-family: "Internacional W05 Black";
+}
+
+@font-face {
+    font-family: "Internacional W05 Black";
+    src: url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.eot");
+    src: url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.svg#Internacional W05 Black")format("svg");
+}
+.main h1{
+    font-size:55px;
+}
+.main h3{
+    font-size:33px;
+}
+.main span{
+    color:#0B5CFF;
+}
+.a_main h1{
+    margin-top:45px;
+}
+.b_main h1{
+    margin-top:50px;
+}
+/* later */
+/* .footer{
+    background:black;
+    height:900px;
+} */

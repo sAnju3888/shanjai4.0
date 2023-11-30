@@ -1,0 +1,28 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/blog.css">
+    <title>Form Submission</title>
+</head>
+
+<body>
+    <%- include('./partials/nav.ejs')%>
+    <h1>Create a New Topic</h1>
+    <form action="/submit" method="post">
+        <label for="topicName">Topic Name:</label>
+        <input type="text" id="topicName" name="topicName" required>
+
+        <label for="topicHeading">Topic Heading:</label>
+        <input type="text" id="topicHeading" name="topicHeading" required>
+
+        <label for="topicContent">Topic Content:</label>
+        <textarea id="topicContent" name="topicContent" rows="8" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

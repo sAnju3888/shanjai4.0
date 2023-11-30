@@ -1,0 +1,52 @@
+body{
+    margin-top:200px;
+    background-color: rgba(96, 249, 31, 0.591);
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+.container{
+    display:flex;
+    width:856px;
+    height:380px;
+    border:8px solid blue;
+    justify-content: space-around;
+    padding:60px;
+    background-color: #ddebf8;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    border-bottom:13px solid rgb(209, 144, 13);
+    margin-top:200px;
+}
+.bio{
+    font-size: larger;
+    
+}
+.profile{
+    width:250px;
+    height:250px;
+    border:4px solid red;
+}
+.qr{
+    border:2px solid #ddebf8;
+    width:250px;
+    height:250px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}

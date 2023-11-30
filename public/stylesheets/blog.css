@@ -1,0 +1,53 @@
+/* blog.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 40em; /* Responsive max-width */
+    margin: 0 auto;
+    padding: 1.25em; /* Responsive padding */
+}
+
+
+
+form {
+    background-color: #fff;
+    padding: 1.25em; /* Responsive padding */
+    border-radius: 0.5em; /* Responsive border-radius */
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em; /* Responsive margin */
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em; /* Responsive margin */
+    border: 1px solid #ccc;
+    border-radius: 0.25em; /* Responsive border-radius */
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 0.625em 0.9375em; /* Responsive padding */
+    border: none;
+    border-radius: 0.25em; /* Responsive border-radius */
+    cursor: pointer;
+    font-size: 1em; /* Responsive font size */
+}
+
+button:hover {
+    background-color: #45a049;
+}
