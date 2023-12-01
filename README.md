@@ -1,9 +1,9 @@
 
-# about shanjai 4.0 
+# About shanjai 4.0 
 This Repo is Just an Updation of Repo shanjai 3.0 Where i have designed my portfolio site . In this version I've added Blogs where our articles with contents Get Published on the site
 
 
-#Technology/Stacks
+# Technology/Stacks
 * Hosted ☁ GCP( Google Cloud Platform)
 * Gcp Services ☁ {VM instances , Bucket , sql , Cloud Trigger}
 * Front-End ☁ {HTML , CSS , JS)
