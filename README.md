@@ -4,11 +4,11 @@ This Repo is Just an Updation of Repo shanjai 3.0 Where i have designed my portf
 
 
 #Technology/Stacks
-* Hosted 👉 GCP( Google Cloud Platform)
-* Gcp Services 👉 {VM instances , Bucket , sql , Cloud Trigger}
-* Front-End 👉 {HTML , CSS , JS)
-* Back-End 👉 {Nodejs, Express}
-* Database 👉 {Mysql2}
+* Hosted ☁ GCP( Google Cloud Platform)
+* Gcp Services ☁ {VM instances , Bucket , sql , Cloud Trigger}
+* Front-End ☁ {HTML , CSS , JS)
+* Back-End ☁ {Nodejs, Express}
+* Database ☁ {Mysql2}
 
 
 # past Versions
