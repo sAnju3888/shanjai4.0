@@ -11,15 +11,11 @@ for(let i=0;i<notes.length;i++){
         document.getElementById('content').textContent = notes[i].topicContent;
         
         var imageName = notes[i].topicName ;
-        const imageNames = [imageName+".png" , imageName +".jpg"];
-        const bucketName = 'cloud_proj_blog';
-        const imageUrl = `https://storage.googleapis.com/${bucketName}/${imageName}`;
+        const imageNames = imageName +".jpg";
+        console.log(imageNames);
+        const bucketName = 'cloud_proj_blogs';
         const imageElement = document.getElementById('imageDisplay');
-        
-
-
-        for (const imageName of imageNames) {
-            const imageUrl = `https://storage.googleapis.com/${bucketName}/${imageName}`;
+        const imageUrl = `https://storage.googleapis.com/${bucketName}/${imageNames}`;
             
             // Attempt to load the image
             const img = new Image();
@@ -27,23 +23,13 @@ for(let i=0;i<notes.length;i++){
               // Image loaded successfully, set the 'src' attribute
               imageElement.src = imageUrl;
             };
-            img.onerror = function() {
-              // Image not found, try the next one
-              if (imageName === imageNames[imageNames.length - 1]) {
-                console.error('No valid image found.');
-              }
-            };
+           
             img.src = imageUrl;
           }
-        
-          
-        
-
-        
     }
 }
 
-}
+
 load_notes();
 
 
